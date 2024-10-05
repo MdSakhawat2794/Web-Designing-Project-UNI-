@@ -1,0 +1,154 @@
+body {
+    border: 20px;
+    
+}
+
+header{
+    background-image:url("../image/bg1.jpg") ;
+    background-size: cover;
+    height: 288px;
+    width:1200px;
+    align-content: center;
+    background-position: center ;
+    font-family: "Arial", sans-serif;
+    color:orange;
+    text-align:center;
+    justify-content:center;
+    font-size:76px;
+
+
+}
+#heading{
+    color:orange;
+    text-align:center;
+    font: bold 76px "Arial", sans-serif;
+    text-shadow:3px 2px white ;
+}
+
+#section_2{
+    width: 1200px;
+
+    display: flex;
+    background-image: url("../image/bg2.jpg");
+}
+#section_3{
+    width: 1200px;
+
+    display: flex;
+    background-image: url("../image/bg2.jpg");
+}
+
+
+#top{
+    margin: 20px 10px 10px 20px;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    display: flex;
+}
+#bottom{
+    margin: 20px 20px 10px 10px;
+    background-color: aqua;
+    height: 400px;
+    width: 740px;
+    display: flex;
+    overflow: hidden;
+}
+#first{
+    margin: 10px 10px 20px 20px;
+    background-color: aqua;
+    height: 400px;
+    width: 740px;
+    display: flex;
+    overflow: hidden;
+}
+#second{
+    margin: 10px 20px 20px 10px;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    display: flex;
+}
+
+.ai{
+    height: 400px;
+    width: 400px;
+}
+.top_1{
+    height: 400px;
+    width: 400px;
+}
+#top_2{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(to top, brown, lightgray,navy);
+
+}
+#top_2:hover{
+    visibility: hidden;
+    background-color: transparent;
+}
+#video{
+    height: 400px;
+    width: 740px;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+#video_text{
+    height: 400px;
+    width: 740px;
+    position: absolute;
+    color: white;
+    font-family: "Arial", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#first_2{
+    position: absolute;
+}
+.gemini{
+    height: 400px;
+    width: 740px;
+}
+#first_2:hover{
+    z-index: -1;
+}
+#second_2{
+    position: absolute;
+}
+
+#second_2:hover{
+    opacity: 0;
+    transition: 2s ease;
+}
+p{
+    font: normal 20px arial, sans-serif;
+}
+.ai_heading{
+    font: bold 44px arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: #150909;
+    color: orange;
+    font: 26px normal Verdana;
+    height: 175px;
+    width: 1200px;
+    text-align: center;
+    align-content: center;
+}
